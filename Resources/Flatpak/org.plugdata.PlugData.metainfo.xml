@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.plugdata.PlugData</id>
+  <name>PlugData</name>
+  <summary>A real-time graphical programming environment for live interactive computer music</summary>
+
+  <description>
+    <p>
+      PlugData is a modern visual programming environment based on Pure Data,
+      with plugin support and extended functionality. It provides a clean JUCE-based interface,
+      built-in audio and MIDI support, and a plugin version for DAWs.
+    </p>
+  </description>
+
+  <!-- Correct SPDX identifiers -->
+  <project_license>GPL-3.0-or-later</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+
+  <launchable type="desktop-id">org.plugdata.PlugData.desktop</launchable>
+
+  <categories>
+    <category>AudioVideo</category>
+    <category>Music</category>
+  </categories>
+
+  <url type="homepage">https://plugdata.org</url>
+  <url type="bugtracker">https://github.com/plugdata-team/plugdata/issues</url>
+  <url type="vcs-browser">https://github.com/plugdata-team/plugdata</url>
+
+  <developer_name>PlugData Team</developer_name>
+
+  <!-- Required for Flathub compliance -->
+  <content_rating type="oars-1.1"/>
+
+</component>
