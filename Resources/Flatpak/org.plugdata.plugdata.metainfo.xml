@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>org.plugdata.plugdata</id>
-  <name>plugdata</name>
-  <developer_name>Timothy Schoen et al.</developer_name>
+  <id>org.plugdata.PlugData</id>
+  <name>PlugData</name>
   <summary>A real-time graphical programming environment for live interactive computer music</summary>
-  <metadata_license>FSFAP</metadata_license>
-  <project_license>GPL-3.0</project_license>
   <description>
-
+    <p>
+      PlugData is a modern visual programming environment based on Pure Data,
+      with plugin support and extended functionality.
+    </p>
   </description>
-  <provides>
-    <binary>plugdata</binary>
-  </provides>
+  <license>GPL-3.0-or-later</license>
+  <launchable type="desktop-id">org.plugdata.PlugData.desktop</launchable>
   <url type="homepage">https://puredata.info/</url>
-  <url type="bugtracker">https://bugs.puredata.info</url>
-  <url type="vcs-browser">https://github.com/pure-data/pure-data</url>
-  <url type="translate">https://hosted.weblate.org/projects/pure-data/pure-data/</url>
-  <launchable type="desktop-id">org.plugdata.plugdata.desktop</launchable>
-  <screenshots>
-  </screenshots>
-  <content_rating type="oars-1.0"/>
 </component>
