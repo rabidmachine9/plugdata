@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=plugdata
+Name=PlugData
 Exec=plugdata %F
 Categories=Audio;AudioVideo;Development;Music;Graphics
 Keywords=Audio;Video;Programming;Synthesis;Analysis
@@ -8,4 +8,4 @@ MimeType=text/x-puredata;
 GenericName=Dataflow IDE
 Type=Application
 Terminal=false
-Icon=plugdata
+Icon=org.plugdata.PlugData
